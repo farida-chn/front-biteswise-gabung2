@@ -34,6 +34,13 @@ const Navbar = () => {
         >
           Keranjang
         </Link>
+        <Link
+          to="/profile"
+          className="cursor-pointer text-teal-700 hover:text-teal-500 py-3 px-8 font-bold flex items-center"
+        >
+          <FaUserCircle className="text-2xl mr-2" />
+          Profil
+        </Link>
       </div>
     </div>
   );
